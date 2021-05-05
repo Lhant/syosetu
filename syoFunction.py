@@ -132,7 +132,10 @@ if __name__ == '__main__':
         if event in (None, 'Cancel'):  # 如果用户关闭窗口或点击`Cancel`
             break
         else:
-            returnValue = main(values[0], int(values[1]))
+            if values[1] == '':
+                returnValue = main(values[0], None)
+            else:
+                returnValue = main(values[0], int(values[1]))
         while True:
             pop = sg.Window("通知", [[sg.Text(returnValue)]], icon=icon)
             if pop.read()[0] is None:
