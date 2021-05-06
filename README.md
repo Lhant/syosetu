@@ -36,7 +36,11 @@ syoFunction.exeを開く
 
 Https　Proxyを使っている場合はportを入力してください
 
-プログラムは自動的に「　http://localhost:port　」　のように追加する
+プログラムは自動的に
+
+http://localhost:port　
+
+のように追加する
 
 portは入力されない場合は直接URLアクセスする
 
