@@ -138,7 +138,8 @@ if __name__ == '__main__':
                 returnValue = main(values[0], int(values[1]))
         while True:
             pop = sg.Window("通知", [[sg.Text(returnValue)]], icon=icon)
-            if pop.read()[0] is None:
+            if pop.read()[0] in (None, 'Cancel'):
                 break
+        pop.close()
 
     window.close()
