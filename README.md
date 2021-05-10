@@ -32,7 +32,7 @@
 
 syoFunction.exeを開く
 
-小説のURL linkを入力ください　　*URL link最後の「/」は削除できません
+小説のURL linkを入力してください　　*URL link最後の「/」は削除できません
 
 http proxyを使っている場合はportを入力してください
 
@@ -40,8 +40,8 @@ http proxyを使っている場合はportを入力してください
 
 http://localhost:port　
 
-のように追加する
+のようにportを追加できる
 
-portが入力されない場合は直接URLアクセスする
+portが入力されない場合は直接にURLをアクセスする
 
 
